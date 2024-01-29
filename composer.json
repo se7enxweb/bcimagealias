@@ -1,0 +1,30 @@
+{
+    "name": "se7enxweb/bcimagealias",
+    "description": "eZ Publish Legacy extension which provides a simple solution for exporting all images stored in ezpublish to disk and from there to a content delivery network (CDN). Great for smart developers!",
+    "type": "ezpublish-legacy-extension",
+    "keywords": [ "eZ Publish", "eZ Publish Legacy", "eZ Publish Platform", "image", "alias", "export", "cdn", "extension", "cli" ],
+    "homepage": "https://github.com/se7enxweb/bcgmapslocation",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name" : "7x",
+            "homepage": "https://se7enx.com",
+            "email": "info@se7enx.com",
+            "role": "Developer"
+        },
+        {
+            "name" : "Brookins Consulting",
+            "homepage": "http://brookinsconsulting.com",
+            "email": "info@brookinsconsulting.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.0.0",
+        "se7enxweb/ezpublish-legacy-installer": "*"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "bcimagealias"
+    }
+}
